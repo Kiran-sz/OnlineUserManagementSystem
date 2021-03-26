@@ -8,4 +8,5 @@ from HRM import views
 urlpatterns = [
     path('users/', views.UserList.as_view()),
     path('users/<employee_id>', views.UserDetails.as_view()),
+    path('users/auth', views.UserAuthentication.as_view()),
 ]

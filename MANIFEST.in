@@ -1,0 +1,5 @@
+include LICENSE
+include readme.rst
+recursive-include HRM/static *
+recursive-include HRM/templates *
+recursive-include docs *
