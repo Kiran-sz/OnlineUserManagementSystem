@@ -1,3 +1,7 @@
 .idea/
 db.sqlite3
 venv/
+build
+dist
+Rest_Site.egg-info
+HRM.egg-info
